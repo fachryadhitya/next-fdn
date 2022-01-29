@@ -1,7 +1,7 @@
 function ProductCard({ withProfileImage, noBorder }) {
   return (
     <>
-      <div className={`xl:w-1/5 md:w-1/2 ${!noBorder && 'border-2'} rounded-lg relative`} style={{ width: '18%' }}>
+      <div className={`w-full md:w-1/3 lg:w-48% xl:w-18% ${!noBorder && 'border-2'} rounded-lg relative my-6`}>
         {withProfileImage && (
           <div className="w-20 h-auto inline-flex items-center justify-center text-indigo-500 mb-4 absolute top-0 -mt-8 ml-12">
             <img
@@ -19,7 +19,7 @@ function ProductCard({ withProfileImage, noBorder }) {
 
         <div className="bg-white p-4 rounded-lg ">
           <img
-            className="h-auto rounded w-full object-contain object-center mb-6 max-w-full"
+            className="h-40 rounded w-full object-contain object-center mb-6 max-w-full"
             src="https://static.femaledaily.com/dyn/640/images/prod-pics/product_1558000129_YOU_MAKEUP_800x800.png"
             alt="content"
           />
