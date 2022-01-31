@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest"
   },
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.3.1",
@@ -19,7 +20,10 @@
     "redux-thunk": "^2.4.1"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
     "autoprefixer": "^10.4.2",
+    "jest": "^27.4.7",
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.18"
   }

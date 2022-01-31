@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
@@ -38,10 +37,6 @@ export default function Home({ partnerImage }) {
 
   return (
     <div>
-      <Head>
-        <title>FDN</title>
-      </Head>
-
       <Header />
 
       <div className="mx-auto container md:max-w-screen-md lg:max-w-screen-lg px-4 lg:px-0">
