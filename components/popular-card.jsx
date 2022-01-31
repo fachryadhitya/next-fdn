@@ -11,13 +11,13 @@ function PopularCard() {
         className="object-cover w-40 h-auto max-w-full w-100"
       />
 
-      <h3 className="title-font font-bold text-lg">Embrace the gurl</h3>
+      <h3 className="title-font font-bold text-lg capitalize">Embrace the curl</h3>
       <div className="inline-flex text-xl gap-4">
         <CgProfile />
         <BsList />
         <BiMessageDetail />
       </div>
-      <p>May the forth be with you! </p>
+      <p>May the force be with you! </p>
     </div>
   );
 }

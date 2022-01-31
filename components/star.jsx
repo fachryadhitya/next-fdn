@@ -3,8 +3,8 @@ function Star() {
     <svg
       fill="currentColor"
       stroke="currentColor"
-      strokeLineCap="round"
-      strokeLineJoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       strokeWidth="2"
       className="w-4 h-4 text-red-500"
       viewBox="0 0 24 24"
