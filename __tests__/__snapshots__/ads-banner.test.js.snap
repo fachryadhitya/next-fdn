@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ads Banner Component Render successfully 1`] = `
+<div>
+  <div
+    class="bg-gray-200 text-center flex justify-center items-center my-5 max-w-full mx-auto"
+    data-testid="ads-banner"
+    style="width: 700px; height: 700px;"
+  >
+    <p>
+      700
+       x 
+      700
+    </p>
+  </div>
+</div>
+`;

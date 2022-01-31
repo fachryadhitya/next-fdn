@@ -4,7 +4,7 @@ function ArticleCard({ data }) {
     <div className="my-4 w-full md:w-auto lg:w-32%">
       <img
         src={image}
-        alt="product picture (tonymoly)"
+        alt="product picture"
         className="max-w-full h-auto rounded-lg object-center object-cover"
       />
 
