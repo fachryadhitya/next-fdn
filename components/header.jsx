@@ -5,12 +5,12 @@ function Header() {
 
   return (
     <>
-      <header class="text-gray-600 body-font">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col gap-2 lg:gap-0 lg:flex-row items-center justify-between">
+      <header className="text-gray-600 body-font">
+        <div className="container mx-auto flex flex-wrap p-5 flex-col gap-2 lg:gap-0 lg:flex-row items-center justify-between">
           <a
             href="https://femaledaily.com"
             target="_blank"
-            class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+            className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
           >
             <img
               src="http://app.femaledaily.com/wp-content/uploads/2018/07/FD-Logo-Pink.png"
@@ -24,7 +24,7 @@ function Header() {
             className="w-full lg:w-2/3 border-2 p-1 rounded"
             placeholder="search products, articles, brands. . ."
           />
-          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 bg-red-700 text-white hover:text-red-600">
+          <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 bg-red-700 text-white hover:text-red-600">
             Login / Sign up
           </button>
         </div>

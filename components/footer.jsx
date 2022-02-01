@@ -5,63 +5,63 @@ import AdsBanner from './ads-banner';
 function Footer() {
   return (
     <footer className="border-t-2">
-      <div class="container px-5 pt-10 pb-4 mx-auto">
-        <div class="flex flex-wrap md:text-left text-center order-first">
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <nav class="list-none mb-10">
+      <div className="container px-5 pt-10 pb-4 mx-auto">
+        <div className="flex flex-wrap md:text-left text-center order-first">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <nav className="list-none mb-10">
               <li>
                 <Link href="/" passHref>
-                  <a class="text-gray-600 hover:text-gray-800">About Us</a>
+                  <a className="text-gray-600 hover:text-gray-800">About Us</a>
                 </Link>
               </li>
               <li>
                 <Link href="/" passHref>
-                  <a class="text-gray-600 hover:text-gray-800">Feedback</a>
+                  <a className="text-gray-600 hover:text-gray-800">Feedback</a>
                 </Link>
               </li>
               <li>
                 <Link href="/" passHref>
-                  <a class="text-gray-600 hover:text-gray-800">Content</a>
-                </Link>
-              </li>
-            </nav>
-          </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <nav class="list-none mb-10">
-              <li>
-                <Link href="/" passHref>
-                  <a class="text-gray-600 hover:text-gray-800">Terms &amp; Conditions</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/" passHref>
-                  <a class="text-gray-600 hover:text-gray-800">Privacy Policy</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/" passHref>
-                  <a class="text-gray-600 hover:text-gray-800">Help</a>
+                  <a className="text-gray-600 hover:text-gray-800">Content</a>
                 </Link>
               </li>
             </nav>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <nav class="list-none mb-10">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <nav className="list-none mb-10">
               <li>
                 <Link href="/" passHref>
-                  <a class="text-gray-600 hover:text-gray-800">Awards</a>
+                  <a className="text-gray-600 hover:text-gray-800">Terms &amp; Conditions</a>
                 </Link>
               </li>
               <li>
                 <Link href="/" passHref>
-                  <a class="text-gray-600 hover:text-gray-800">Newsletter</a>
+                  <a className="text-gray-600 hover:text-gray-800">Privacy Policy</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/" passHref>
+                  <a className="text-gray-600 hover:text-gray-800">Help</a>
                 </Link>
               </li>
             </nav>
           </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Download Our Mobile App</h2>
-            <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start gap-2">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <nav className="list-none mb-10">
+              <li>
+                <Link href="/" passHref>
+                  <a className="text-gray-600 hover:text-gray-800">Awards</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/" passHref>
+                  <a className="text-gray-600 hover:text-gray-800">Newsletter</a>
+                </Link>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Download Our Mobile App</h2>
+            <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start gap-2">
               <a href="https://itunes.apple.com/id/app/female-daily-beauty-review/id1160742672?l=id&mt=8">
                 <img
                   src="https://s3-ap-southeast-1.amazonaws.com/assets.femaledaily.com/web-assets/btn_appstore.png"

@@ -57,7 +57,7 @@ exports[`Product Card Component Render successfully 1`] = `
         src="https://image.femaledaily.com/dyn/80/images/user-pics/8cfa98979828b03949df998669bcca01.jpg"
       />
       <div
-        class="text-black self-baseline"
+        class="text-black w-40 max-w-full"
       >
         <p>
            
