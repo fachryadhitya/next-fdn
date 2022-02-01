@@ -10,7 +10,7 @@ function ReviewCard({ data }) {
     <div className="md:w-1/2 border-2 rounded-md p-4 relative">
       <div className="flex border-b-2 py-2 mb-2">
         <img
-          src="https://static.femaledaily.com/dyn/480/images/prod-pics/product_1525323944_Tonymoly_D_800x800.jpg"
+          src="/tony_moly.jpeg"
           alt="product picture"
           className="max-w-full w-20 h-20 rounded-lg object-center object-cover"
         />
