@@ -35,7 +35,7 @@ function ReviewCard({ data }) {
           </button>
         </>
       ) : (
-        <p className='text-neutral-500'>{data?.comment}</p>
+        <p className="text-base">{data?.comment}</p>
       )}
 
       <div className="w-10 h-10 mx-auto items-center justify-center mb-4 absolute bottom-0 -mb-8">
@@ -45,9 +45,8 @@ function ReviewCard({ data }) {
           className="w-24 h-auto rounded-full object-center object-cover"
         />
 
-        <div className="text-black self-baseline">
+        <div className="text-black w-40 max-w-full">
           <p>{data?.user} </p>
-          {/* <small>{data?.profile} </small> */}
         </div>
       </div>
     </div>

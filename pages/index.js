@@ -37,9 +37,7 @@ export default function Home({ partnerImage }) {
 
   return (
     <div>
-      <Header />
-
-      <div className="mx-auto container md:max-w-screen-md lg:max-w-screen-lg px-4 lg:px-0">
+      <div className="mx-auto container md:max-w-screen-md lg:max-w-screen-lg px-4 xl:px-0">
         <AdsBanner />
         <AdsBanner width="970" height="250" />
 
@@ -55,7 +53,7 @@ export default function Home({ partnerImage }) {
         </div>
       </div>
 
-      <div className="bg-pink-200 flex justify-center items-center mx-auto py-6 px-4 lg:px-0 my-4 flex-col">
+      <div className="bg-pink-200 flex justify-center items-center mx-auto py-6 px-4 xl:px-0 my-4 flex-col">
         <div className="text-center mb-2">
           <p className="title-font text-2xl font-bold leading-7 mb-2 capitalize">
             Looking for product that are just simply perfect for <span className="underline">you?</span>
@@ -70,12 +68,12 @@ export default function Home({ partnerImage }) {
 
         <div className="flex gap-2 justify-center flex-wrap">
           {products["editor's choice"]?.slice(0, 3)?.map((item, i) => (
-            <ProductCard key={i} data={item} matchSkin styles="xl:w-32%" />
+            <ProductCard key={i} data={item} matchSkin styles="xl:!w-32%" />
           ))}
         </div>
       </div>
 
-      <div className="mx-auto container md:max-w-screen-md lg:max-w-screen-lg px-4 lg:px-0">
+      <div className="mx-auto container md:max-w-screen-md lg:max-w-screen-lg px-4 xl:px-0">
         <AdsBanner width="970" height="250" />
 
         <section className="mb-10">
@@ -163,7 +161,7 @@ export default function Home({ partnerImage }) {
           </div>
         </section>
 
-        <section className="mb-6">
+        <section className="mb-10">
           <h3 className="title-font text-3xl font-bold capitalize"> top brands </h3>
           <div className="flex md:justify-between mb-4 md:items-center flex-col md:flex-row mt-2">
             <p className="text-md text-neutral-500"> We all know and love 💓 </p>
@@ -183,19 +181,17 @@ export default function Home({ partnerImage }) {
           </div>
         </section>
 
-        <section className="mb-6">
-          <h3 className="title-font text-xl font-bold capitalize">
+        <section className="my-8">
+          <h3 className="title-font text-xl font-bold capitalize mb-4">
             Female Daily – find everything you want to know about beauty on Female Daily
           </h3>
-          <p className="text-md text-neutral-500">
+          <p className="text-md text-neutral-500 leading-relaxed">
             We believe that beauty is for everyone and we’ re here to make sure everyone has a share. We prioritize
             honesty and we want to be responsible in our beauty education. We strive for a better beauty industry for
             all players, one swipe of lipstick at a time.
           </p>
         </section>
       </div>
-
-      <Footer />
     </div>
   );
 }

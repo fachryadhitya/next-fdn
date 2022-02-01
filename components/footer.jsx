@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import { AiFillFacebook, AiFillInstagram, AiFillTwitterCircle, AiFillYoutube } from 'react-icons/ai';
+import AdsBanner from './ads-banner';
 
 function Footer() {
   return (
     <footer className="border-t-2">
-      <div class="container px-5 py-12 mx-auto">
+      <div class="container px-5 pt-10 pb-4 mx-auto">
         <div class="flex flex-wrap md:text-left text-center order-first">
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
             <nav class="list-none mb-10">
@@ -86,6 +87,7 @@ function Footer() {
             </div>
           </div>
         </div>
+        <AdsBanner width={970} height={50} />
       </div>
     </footer>
   );

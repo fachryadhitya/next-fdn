@@ -2,6 +2,7 @@ import { Provider } from 'react-redux';
 import store from '../redux/store/store';
 import '../styles/globals.css';
 import Head from 'next/head';
+import Layout from '../components/layout';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,7 +10,9 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>FDN</title>
       </Head>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </Provider>
   );
 }
