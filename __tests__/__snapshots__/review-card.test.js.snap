@@ -11,6 +11,7 @@ exports[`Product Card Component Render successfully 1`] = `
       <img
         alt="product picture"
         class="max-w-full w-20 h-20 rounded-lg object-center object-cover"
+        src="/tony_moly.jpeg"
       />
       <div>
         <h3

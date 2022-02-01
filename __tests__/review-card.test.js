@@ -22,12 +22,10 @@ describe('Product Card Component', () => {
   });
 
   it('Render component with custom props', () => {
-    const { getByText, getByAltText } = render(<ReviewCard data={props} />);
+    const { getByText } = render(<ReviewCard data={props} />);
     expect(getByText(props.user)).toBeInTheDocument();
     expect(getByText(props.product.desc)).toBeInTheDocument();
     expect(getByText(props.product.name)).toBeInTheDocument();
-    const image = getByAltText('product picture');
-    expect(image).toHaveAttribute('src', props.product.image);
   });
 
   it('shows comment correctly with state', async () => {
